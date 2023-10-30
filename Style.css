@@ -8,3 +8,125 @@ color: #fff;
 
 
 }
+.main
+{
+display: flex;
+height: 100vh;
+padding: 0.5rem;
+}
+
+.sidebar
+{
+    background-color: black;
+    width: 350px;
+    border-radius: 1rem; /* 1rem = 16px  because `font-size: 16px;` is the default font size of the browser*/
+    margin-right: 0.5rem;
+
+}
+.main-content
+{
+   background-color: #121212;
+   flex: 1;
+   border-radius: 1rem;
+}
+.music-player
+{
+    background-color: black;
+    position: fixed;
+    bottom:00;
+    width: 100%;
+    height: 72px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav
+{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+
+
+}
+
+.nav-option
+{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover
+{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a
+{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.lib-options img  {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.icons
+{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i
+{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover
+{
+    opacity: 1;
+}
+
+.box
+{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+.box-p1
+{
+    font-size:1rem;
+font-weight: 500;
+}
+.box-p2
+{
+    font-size:0.85rem;
+    opacity: 0.9;
+}
+.badge
+{
+    background-color: #fff;
+    border:none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top:0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
